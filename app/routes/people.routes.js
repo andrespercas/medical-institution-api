@@ -12,5 +12,4 @@ module.exports = (app) => {
     // Obtiene el los eventos siguientes (planes de cuidado, medicamentos)
     app.get('/user/activity/:idUser', People.getCurrentActivity);
 
-    // Obtiene las alergias de un usuario
 }
