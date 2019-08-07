@@ -1,5 +1,5 @@
 module.exports = {
-    urlApi: 'http://localhost:3001/',
+    urlApi: 'https://blooming-refuge-74646.herokuapp.com/',
 
     urlDemographic: 'demographic/',
     urlDemographicAttribute: 'demographic/attributes/',
