@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "0fe77af1-27d7-4353-83c6-0e88cfc1d90a",
+		"name": "medical-institution-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://arcane-ridge-42358.herokuapp.com/user/5d4b62aa8460890016a1cbd5",
+					"protocol": "https",
+					"host": [
+						"arcane-ridge-42358",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"5d4b62aa8460890016a1cbd5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserAttributes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://arcane-ridge-42358.herokuapp.com/user/attributes/5d4b62aa8460890016a1cbd5/Immunizations",
+					"protocol": "https",
+					"host": [
+						"arcane-ridge-42358",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"attributes",
+						"5d4b62aa8460890016a1cbd5",
+						"Immunizations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserJournal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://arcane-ridge-42358.herokuapp.com/user/journal/5d4b62aa8460890016a1cbd5",
+					"protocol": "https",
+					"host": [
+						"arcane-ridge-42358",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"journal",
+						"5d4b62aa8460890016a1cbd5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCurrentActivity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://arcane-ridge-42358.herokuapp.com/user/activity/5d4b62aa8460890016a1cbd5",
+					"protocol": "https",
+					"host": [
+						"arcane-ridge-42358",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"activity",
+						"5d4b62aa8460890016a1cbd5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
